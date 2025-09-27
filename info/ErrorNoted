@@ -1,0 +1,7 @@
+Got the error while user registration but the user has been added to the firebase authenticator
+
+ [FirebaseError: Function setDoc() called with invalid data. Unsupported field value: undefined (found in field displayName in document users/r8Xv2NKafVaT8sbloyxGtowgqtK2)]
+ ERROR  Error code: invalid-argument
+ ERROR  Error message: Function setDoc() called with invalid data. Unsupported field value: undefined (found in field displayName in document users/r8Xv2NKafVaT8sbloyxGtowgqtK2)
+ LOG  Registration result: {"error": "invalid-argument: Function setDoc() called with invalid data. Unsupported field value: undefined (found in field displayName in document users/r8Xv2NKafVaT8sbloyxGtowgqtK2)", "message": "Failed to register user", "success": false}
+ ERROR  Registration failed: invalid-argument: Function setDoc() called with invalid data. Unsupported field value: undefined (found in field displayName in document users/r8Xv2NKafVaT8sbloyxGtowgqtK2) Failed to register user 

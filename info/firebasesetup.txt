@@ -1,0 +1,72 @@
+● 🔥 Step-by-Step Firebase Setup
+
+  Let's get your Firebase account configured! Follow these steps:
+
+  Step 1: Create Firebase Project
+
+  1. Go to Firebase Console:
+    - Open: https://console.firebase.google.com/
+    - Sign in with your Google account
+  2. Create New Project:
+    - Click "Create a project"
+    - Project name: health-dashboard-mobile (or whatever you prefer)
+    - Enable Google Analytics: Yes (recommended for tracking app usage)
+    - Choose Analytics account: Use your existing Google Analytics account or create new
+    - Click "Create project"
+    - Wait for setup (1-2 minutes)
+  3. Add Web App:
+    - Once project is ready, click the </> (web) icon
+    - App nickname: HealthDashboard
+    - Check: "Also set up Firebase Hosting" (optional)
+    - Click "Register app"
+  4. Copy Your Config:
+    - You'll see a firebaseConfig object like this:
+  const firebaseConfig = {
+    apiKey: "AIzaSyC...",
+    authDomain: "health-dashboard-mobile.firebaseapp.com",
+    projectId: "health-dashboard-mobile",
+    storageBucket: "health-dashboard-mobile.appspot.com",
+    messagingSenderId: "123456789",
+    appId: "1:123456789:web:abcdef123456"
+  };
+
+  📋 COPY THIS CONFIG - We'll use it in Step 5!
+
+  ---
+  Step 2: Enable Authentication
+
+  1. Go to Authentication:
+    - In left sidebar → "Authentication"
+    - Click "Get started"
+  2. Enable Email/Password:
+    - "Sign-in method" tab
+    - Click "Email/Password"
+    - Enable "Email/Password" (first toggle)
+    - Enable "Email link" (optional - second toggle)
+    - Click "Save"
+
+  ---
+  Step 3: Create Firestore Database
+
+  1. Go to Firestore Database:
+    - Left sidebar → "Firestore Database"
+    - Click "Create database"
+  2. Security Rules:
+    - Select "Start in test mode" (we'll update rules later)
+    - Click "Next"
+  3. Choose Location:
+    - Select region closest to your users (e.g., us-central1, europe-west1)
+    - ⚠️ Important: This cannot be changed later!
+    - Click "Done"
+
+  ---
+  Step 4: Enable Storage (for photos)
+
+  1. Go to Storage:
+    - Left sidebar → "Storage"
+    - Click "Get started"
+    - Accept security rules (test mode)
+    - Use same location as Firestore
+    - Click "Done"
+
+  ---

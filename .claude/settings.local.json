@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(md-tree:*)",
+      "Bash(mkdir:*)",
+      "Bash(npx create-expo-app:*)",
+      "Read(C:\\Users\\ashwi\\CodeRepository/**)",
+      "Bash(npm start:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm test)",
+      "Bash(npx expo install:*)",
+      "Bash(npm run android:*)",
+      "Bash(npx expo start:*)",
+      "Bash(npx kill-port:*)",
+      "Bash(tree:*)",
+      "Bash(npm run type-check:*)",
+      "Bash(timeout 10s npm start)",
+      "Bash(npm uninstall:*)",
+      "Bash(npx expo:*)",
+      "Bash(firebase login:*)",
+      "Bash(node:*)",
+      "Bash(timeout 15s npm start)",
+      "Bash(firebase --version)",
+      "Bash(del test_food_service.js)",
+      "Bash(npm test:*)",
+      "Bash(npm run:*)",
+      "Bash(dir:*)",
+      "Bash(npx jest:*)",
+      "Bash(firebase deploy:*)",
+      "Bash(firebase firestore:indexes:*)",
+      "Bash(del test_nutrition_engine.js)",
+      "Bash(find:*)",
+      "Bash(findstr:*)",
+      "Bash(cat:*)",
+      "Bash(del __tests__integrationdashboard-food-navigation.test.tsx)",
+      "Bash(del test_firebase_connection.js test_food_service.js)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

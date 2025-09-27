@@ -1,0 +1,1 @@
+const { calculateNutritionForFood } = require("./src/utils/nutritionCalculator.js"); calculateNutritionForFood("apple", 1, "pieces").then(result => { console.log("✅ Nutrition calculation test:", result); process.exit(0); }).catch(error => { console.error("❌ Nutrition calculation failed:", error); process.exit(1); });

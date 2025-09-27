@@ -1,0 +1,8 @@
+List of Bugs noted down in the application during Testing: 
+Home Screen
+1. Track Food Dashboard shows some random measures of Protein,Fats,Carbs and Fiber. Expected : It should show the macro nutrients percentage based on the food the user has consumed on the current day.
+2. Auto Track Calories Feature is not part of our initial scope. Expected : Remove the part from the dashboard and also remove the camera icon from the dashboard
+3. Clicking on the + Icon in the Dashboard doesn't take me to Track Food Screen. Expected: When Clicking ont the + Icon in the dashboard should take me to the Track Food screen
+4. Weight, Workout, steps, Sleep, Water shows a random number. Expected:  It should show the current applicable data as of today
+5. UX Issue : The Weight, Workout, Steps, Sleep,Water. On the right hand side end of these items, there are icons to add those measures. I want you to remove them and make it  read only
+6. Top Left Corner: ONce the user logs in a empty user icon is showm. Expected : It should show the profile picture of the user used in google account incase its available
